@@ -1,5 +1,4 @@
-import { Footer } from "@/components";
-import Catalogue from "@/components/Catalogue";
+import { Footer, Catalogue } from "@/components";
 
 export default function() {
   return (

@@ -1,5 +1,5 @@
 {
-  "name": "car",
+  "name": "AliBuild",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -15,6 +15,7 @@
     "@types/react-dom": "18.2.4",
     "ai": "^2.2.27",
     "autoprefixer": "10.4.14",
+    "mysql2": "^3.9.2",
     "next": "^13.5.6",
     "openai": "^4.20.1",
     "openai-edge": "^1.2.2",

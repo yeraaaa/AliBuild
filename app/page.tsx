@@ -1,5 +1,5 @@
-import { Footer, Hero } from '@/components'
-import Features from '@/components/Features'
+import { Features, Footer, Hero } from '@/components'
+
 import Image from 'next/image'
 
 export default function Home() {

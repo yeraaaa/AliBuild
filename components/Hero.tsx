@@ -12,7 +12,7 @@ const Hero = () => {
     return (
         <div className="hero">
             <div className="flex-1 pt-36 padding-x">
-                <h1 className="hero__title">Comfrortable and restful apartaments for you</h1>
+                <h1 className="hero__title">Comfortable and restful apartments for you</h1>
 
                 <p className="her0__subtitle">Make the right choice for your bright future.</p>
 

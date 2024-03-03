@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -8,7 +8,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Manrope", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /* START: General styles */
@@ -43,7 +43,7 @@
 }
 
 .hero__title {
-  @apply 2xl:text-[72px] sm:text-[64px] text-[50px] font-extrabold;
+  @apply 2xl:text-[70px] sm:text-[60px] text-[45px] font-extrabold;
 }
 
 .hero__subtitle {
@@ -153,3 +153,58 @@
   @apply cursor-default select-none py-2 pl-10 pr-4;
 }
 /* END: search manufacturer styles */
+
+.php {
+  margin: auto;
+  width: 50%;
+  padding: 2;
+  border: 4;
+  text-align: center;
+  border-radius: 0.5rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.php1 {
+  font-weight: 700;
+  font-size: 1.875rem/* 30px */;
+  line-height: 2.25rem/* 36px */;
+  margin-top: 1rem/* 16px */;
+  margin-bottom: 1rem/* 16px */;
+}
+
+.php2 {
+  display: flex;
+  flex-direction: column;
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.75rem/* 12px */ * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.75rem/* 12px */ * var(--tw-space-y-reverse));
+  align-items: center;
+}
+
+.input {
+  border-width: 2px;
+  border-radius: 0.25rem/* 4px */;
+  width: 50%;
+  height: 2rem/* 32px */;
+}
+
+.submit {
+  --tw-bg-opacity: 1;
+  background-color: rgb(81 89 187 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  border-radius: 1.5rem/* 24px */;
+  width: 120px;
+  height: 40px;
+}
+
+.pacc {
+  text-decoration-color: #5159bb;
+  text-underline-offset: 2px;
+  margin-top: 2rem/* 32px */;
+}
+
+.pacc:hover {
+  text-decoration-line: underline;
+}

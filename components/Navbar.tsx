@@ -19,7 +19,7 @@ const Navbar = () => {
             <div className="flex ml-6 px-6 py-4 items-center justify-between w-full">
                 <div className="flex items-center text-center gap-6 md:gap-12">
                     <div className="flex md:gap-3 gap-2 md:text-md text-xl font-semibold">
-                        <Link className="hover:underline-offset-1 hover:underline decoration-[#5159bb]" href='./advisory'>AI Adviser</Link>
+                        <Link className="hover:underline-offset-1 hover:underline decoration-[#5159bb]" href='./advisory'>AI Advisory</Link>
                     </div>
                     <div className="flex md:gap-3 gap-2 md:text-md text-xl font-semibold">
                         <Link className="hover:underline-offset-1 hover:underline decoration-[#5159bb]" href='./apartments'>Apartments</Link>
@@ -27,11 +27,13 @@ const Navbar = () => {
                 </div>
             </div>
 
-            <CustomButton 
+            <Link href='/login'>
+                <CustomButton 
                 title="Sign In"
                 btnType="button"
                 containerStyles="bg-[#5159bb] hover:bg-[#3a41c6] transition-[5s] text-white rounded-3xl w-[110px] h-[30x]"
-            />
+                />
+            </Link>
         </nav>
     </header>
   )

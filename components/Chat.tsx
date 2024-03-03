@@ -15,12 +15,12 @@ export default function ChatComponent() {
             {/* {messages.map(message => <p key={message.id}>{message.content}</p>)} */}
             {messages.map((message: Message) => {
                 return (
-                    <div className="w-full grid grid-cols-1 " key={message.id}>
+                    <div className="items-center w-full grid grid-cols-1" key={message.id}>
                         {/* Name of person talking */}
                         {
                             message.role == 'assistant'
                                 ?
-                                <h3 className="text-lg font-semibold mt-2 pl-16 ">
+                                <h3 className="text-lg font-semibold mt-2 pl-16">
                                     AI Adviser
                                 </h3>
                                 :
@@ -42,9 +42,9 @@ export default function ChatComponent() {
                                         {
                                             message.role == 'user'
                                                 ?
-                                                <p className="text-md w-11/12 flex items-end justify-end mt-2" key={message.id + index}>{currentTextBlocks}</p>
+                                                <p className="text-md w-11/12 flex items-end justify-end mt-2 ml-14" key={message.id + index}>{currentTextBlocks}</p>
                                                 :
-                                                <p className="text-md w-1/12 flex items-start justify-start mt-2" key={message.id + index}>{currentTextBlocks}</p>
+                                                <p className="text-md w-1/2 flex items-start justify-start mt-2 ml-16" key={message.id + index}>{currentTextBlocks}</p>
                                         }
                                     </div>
                                 )
