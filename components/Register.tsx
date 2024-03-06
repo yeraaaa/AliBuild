@@ -1,17 +1,8 @@
 import Link from 'next/link'
 import { CustomButton } from '.'
 import { NextPage } from 'next';
-import pool from '../app/db';
 
 export const Register = () => {
-
-  
-
-  const fetchData = async () => {
-    const [rows, fields] = await pool.query("INSERT INTO customers VALUES ('', '$CustomerName','$CustomerSName','$CustomerPNumber', '$CustomerLogin','$CustomerPassword')");
-    console.log(rows);
-  };
-
   return (
     <div>
         <div className='m-auto w-1/2 p-2 border-4 text-center rounded-lg my-16'>
