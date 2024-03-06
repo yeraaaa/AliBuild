@@ -38,14 +38,14 @@ export default function ChatComponent() {
                                 )
                             } else {
                                 return (
-                                    <div className="w-full grid grid-cols-1 " key={message.id}>
-                                        {
-                                            message.role == 'user'
-                                                ?
-                                                <p className="text-md w-11/12 flex items-end justify-end mt-2 ml-14" key={message.id + index}>{currentTextBlocks}</p>
-                                                :
-                                                <p className="text-md w-1/2 flex items-start justify-start mt-2 ml-16" key={message.id + index}>{currentTextBlocks}</p>
-                                        }
+                                    <div className="">
+                                        <div className="w-full grid grid-cols-1" key={message.id}>
+                                            {
+                                                message.role === 'user'
+                                                    ? <p className="text-md w-full md:w-11/12 lg:w-10/12 xl:w-9/12 flex items-end justify-end mt-2 md:ml-14 lg:ml-16" key={message.id + index}>{currentTextBlocks}</p>
+                                                    : <p className="text-md w-full md:w-1/2 lg:w-4/12 xl:w-3/12 flex items-start justify-start mt-2 md:ml-16" key={message.id + index}>{currentTextBlocks}</p>
+                                            }
+                                        </div>
                                     </div>
                                 )
                             }

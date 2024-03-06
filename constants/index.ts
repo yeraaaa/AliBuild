@@ -38,8 +38,8 @@ export const footerLinks = [
   {
     title: "Socials",
     links: [
-      { title: "Discord", url: "/" },
-      { title: "Instagram", url: "/" },
+      { title: "LinkedIn", url: "https://www.linkedin.com/in/yerassyl-serik-7100a32b3/" },
+      { title: "Instagram", url: "https://www.instagram.com/yerassylserik/" },
     ],
   },
 ];
