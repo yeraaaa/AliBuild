@@ -28,14 +28,6 @@ const Navbar = () => {
         </div>
 
         <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4">
-            <Link href='/dark'>
-                <CustomButton 
-                    title="Dark Theme"
-                    btnType="button"
-                    containerStyles="bg-[#5159bb] hover:bg-[#3a41c6] transition-[5s] text-white rounded-3xl w-[144px] h-[40px] mr-2 sm:mr-4"
-                />
-            </Link>
-
             <Link href='/login'>
                 <CustomButton 
                     title="Sign In"
