@@ -10,6 +10,7 @@ const Hero = () => {
     }
 
     return (
+        // Hero Section
         <div className="hero">
             <div className="flex-1 pt-36 padding-x">
                 <h1 className="hero__title">Comfortable and restful apartments for you</h1>
@@ -24,6 +25,7 @@ const Hero = () => {
                     />
                 </Link>
             </div>
+            {/* Background Image */}
             <div className="hero__image-container">
                 <div className="hero__image">
                     <Image src="/hero.svg" alt="hero" fill className="object-contain"/>
