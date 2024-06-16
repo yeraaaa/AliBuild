@@ -1,7 +1,3 @@
-import Link from 'next/link'
-import { CustomButton } from '.'
-import { NextPage } from 'next';
-
 export const Register = () => {
   return (
     <div>

@@ -4,7 +4,6 @@ import { CustomButton } from '.'
 
 const Navbar = () => {
   return (
-    // Navbar Logo
     <header className="w-full relative z-10 bg-white border-b border-gray-300">
     <nav className="max-w-[1440px] mx-auto flex justify-between items-center sm:px-8 px-4 py-2 sm:py-4">
         <Link href="/" className="flex justify-center items-center">
@@ -17,7 +16,6 @@ const Navbar = () => {
             />
         </Link>
 
-        {/* Navbar Links */}
         <div className="flex ml-2 sm:ml-6 px-2 sm:px-6 py-2 sm:py-4 items-center justify-between w-full">
             <div className="flex items-center text-center gap-2 md:gap-4">
                 <div className="flex md:gap-2 gap-1 md:text-md text-base font-semibold">
@@ -29,7 +27,6 @@ const Navbar = () => {
             </div>
         </div>
 
-        {/* Sign In Button */}
         <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4"> 
             <Link href='/login'>
                 <CustomButton 
